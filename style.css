@@ -372,6 +372,15 @@ footer li {
   html {
     font-size: 75%;
   }
+  @media (max-width: 768px) {
+    .couple .col-lg-6 {
+        text-align: center; /* Menjaga tampilan lebih rapi pada layar kecil */
+    }
+    .heart {
+        font-size: 30px; /* Mengatur ukuran ikon hati lebih kecil untuk perangkat mobile */
+    }
+}
+
 
   .simply-countdown > .simply-section {
     padding: 70px;
